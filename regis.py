@@ -8,6 +8,7 @@ import re
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import Select
 import time
 
 
@@ -38,7 +39,7 @@ class Course:
 # Represents a request to either add or drop a course
 class Request:
 
-    RequestType = Enum('Add', 'Drop')
+    RequestType = Enum('RequestType', 'Add Drop')
 
     def __init__(self, type, course):
         """
@@ -50,6 +51,26 @@ class Request:
         self.course = course
 
 
+# Common utility to login and initialize a webdriver
+def initialize_driver(params):
+    """
+    Perform manual proxy login using selenium
+    """
+    url = "https://access.caltech.edu/regis_resp/owa2/citsss_webenr_students_pkg.main_course_enrollment?p_term_option_id=527"
+
+    driver = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver')
+    driver.get(url)
+    u = driver.find_element_by_name('login')
+    u.send_keys(params['username'])
+    p = driver.find_element_by_name('password')
+    p.send_keys(params['password'])
+    p.send_keys(Keys.RETURN)
+    time.sleep(1)
+    driver.switch_to_frame("mainFrame")
+
+    return driver
+
+
 # Main worker class that accesses information about currently enrolled courses
 class Accessor:
 
@@ -58,26 +79,9 @@ class Accessor:
         params:
             params: contains auth and other params
         """
-        self.url = "https://access.caltech.edu/regis_resp/owa2/citsss_webenr_students_pkg.main_course_enrollment?p_term_option_id=527"
         self.params = params
-        self.driver = self._login()
+        self.driver = initialize_driver(params)
         self.soup = BeautifulSoup(self.driver.page_source, 'html.parser')
-
-    def _login(self):
-        """
-        Perform manual proxy login using selenium
-        """
-        driver = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver')
-        driver.get(self.url)
-        u = driver.find_element_by_name('login')
-        u.send_keys(self.params['username'])
-        p = driver.find_element_by_name('password')
-        p.send_keys(self.params['password'])
-        p.send_keys(Keys.RETURN)
-        time.sleep(1)
-        driver.switch_to_frame("mainFrame")
-
-        return driver
 
     def _parse_course_table_row(self, first, second):
         """
@@ -125,4 +129,47 @@ class Accessor:
             if course.dept == dept and course.id == id:
                 print(course)
         raise Exception("Invalid Course Input")
+
+
+# Main worker class that performs registration requests
+class Registor:
+
+    def __init__(self, params):
+        """
+        params:
+            params: contains auth and other params
+        """
+        self.params = params
+        self.driver = initialize_driver(params)
+        self.soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+
+    def add_class(self, request):
+        """
+        For now just check whether we can enroll in the class
+        params:
+            request: Request object representing Add request
+        """
+        assert request.type == Request.RequestType.Add
+        dept = request.course.dept
+        id = request.course.id
+
+        print(f"Adding Class {dept} {id}")
+
+        self.driver.find_element_by_name('new_course_button').click()
+        select = Select(self.driver.find_element_by_name('department_id_reqd'))
+        select.select_by_visible_text(dept.upper())
+
+        select = Select(self.driver.find_element_by_name('offering_id_reqd'))
+        options = select.options
+        offering_name = None
+        for option in options:
+            if re.search(id.upper(), option.text) is not None:
+                offering_name = option.text
+                break
+        if offering_name is None:
+            raise Exception("Invalid course ID")
+        select.select_by_visible_text(offering_name)
+
+    def drop_class(self, request):
+        pass
 

@@ -6,7 +6,7 @@ import getpass
 def main():
 
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument('--all', help='Get all course information', dest='all', required=False, default=False)
+    arg_parser.add_argument('--all', help='Get all course information', dest='all', required=False, action='store_true')
     arg_parser.add_argument('--course', help='[Course dept] [Course #]', dest='course', required =False, default='')
     args = arg_parser.parse_args()
 
@@ -25,6 +25,8 @@ def main():
         assert args.course
         dept, id = args.course.split(' ')
         accessor.get_enrolled_course_info(dept, id)
+
+    accessor.driver.close()
 
 
 if __name__ == "__main__":
