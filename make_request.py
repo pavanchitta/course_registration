@@ -24,6 +24,6 @@ def main():
         request = regis.Request(regis.Request.RequestType.Add, course_obj)
         registor.add_class(request)
 
-    # registor.driver.close()
+    registor.driver.close()
 if __name__ == "__main__":
     main()

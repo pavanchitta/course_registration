@@ -164,3 +164,116 @@ JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jq
 JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
 JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
 JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+1607927967209	Marionette	INFO	Stopped listening on port 56412
+1609903347842	geckodriver	INFO	Listening on 127.0.0.1:62003
+1609903348823	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofile28F1tV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903356047	Marionette	INFO	Listening on port 62014
+1609903384899	geckodriver	INFO	Listening on 127.0.0.1:62062
+1609903384910	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofile24w2cH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903387423	Marionette	INFO	Listening on port 62071
+1609903387499	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+1609903429264	geckodriver	INFO	Listening on 127.0.0.1:62140
+1609903429275	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofileTmvTlz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903431800	Marionette	INFO	Listening on port 62149
+1609903431861	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+1609903468976	geckodriver	INFO	Listening on 127.0.0.1:62229
+1609903468987	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofileSRXasq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903471484	Marionette	INFO	Listening on port 62239
+1609903471540	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+1609903489365	geckodriver	INFO	Listening on 127.0.0.1:62316
+1609903489375	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofilefbhP90"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903491835	Marionette	INFO	Listening on port 62325
+1609903491876	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+1609903509724	geckodriver	INFO	Listening on 127.0.0.1:62401
+1609903509734	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofilehI0SVN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903512213	Marionette	INFO	Listening on port 62410
+1609903512330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+1609903563842	geckodriver	INFO	Listening on 127.0.0.1:62493
+1609903563853	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofiles3t6Jz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903566379	Marionette	INFO	Listening on port 62502
+1609903566449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+1609903626205	geckodriver	INFO	Listening on 127.0.0.1:62583
+1609903626216	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cv/xqmn6z1x6l39r_575wkj9b780000gn/T/rust_mozprofilejeBbDI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609903628727	Marionette	INFO	Listening on port 62592
+1609903628791	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript warning: https://access.caltech.edu/res/access.caltech-cit_auth/js/jquery-1-3-2.min.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+JavaScript warning: https://access.caltech.edu/res/oracle/OA_HTML/US/CITSSS/webenr/webenrValidate.js, line 131: unreachable code after return statement
+1609903658463	Marionette	INFO	Stopped listening on port 62592
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609903675609	Marionette	INFO	Stopped listening on port 62014
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609903677384	Marionette	INFO	Stopped listening on port 62149
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609903681736	Marionette	INFO	Stopped listening on port 62071
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609903683511	Marionette	INFO	Stopped listening on port 62325
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609903685305	Marionette	INFO	Stopped listening on port 62239
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609903687127	Marionette	INFO	Stopped listening on port 62410
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609903688731	Marionette	INFO	Stopped listening on port 62502
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
